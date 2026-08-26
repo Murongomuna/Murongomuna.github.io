@@ -1,5 +1,4 @@
-// Edit this single list whenever you want to add, remove, or update a project.
-// Each card can have any number of links. Leave links: [] to show the status message.
+//js for all records
 window.PORTFOLIO_PROJECTS = [
   {
     title: "Life Assurance Policy Retention",
@@ -39,14 +38,14 @@ window.PORTFOLIO_PROJECTS = [
       { label: "Android app", url: "https://play.google.com/store/apps/details?id=com.rojascout.app" }
     ]
   },
-  {
-    title: "Roja Scout AI Chatbot",
-    category: "Applied AI",
-    accent: "mint",
-    description: "A conversational property-search experiment created to explore how generative AI can help people navigate listings and rental information more naturally.",
-    tags: ["Conversational AI", "Experimentation", "User Experience", "Housing"],
-    links: [
-      { label: "Explore Roja Scout", url: "https://www.rojascout.co.zw" }
-    ]
-  }
+{
+  title: "Roja Scout WhatsApp Search Chatbot",
+  category: "Digital Product",
+  accent: "mint",
+  description: "A WhatsApp-based property search chatbot that helps people find Roja Scout listings through a familiar channel, designed around WhatsApp's widespread use in Zimbabwe.",
+  tags: ["WhatsApp", "Property Search", "User Experience", "Housing"],
+  links: [
+    { label: "Explore Roja Scout", url: "https://www.rojascout.co.zw" }
+  ]
+}
 ];
